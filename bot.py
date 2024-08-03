@@ -30,14 +30,14 @@ appid = apihash = bottoken = None
 # start the bot
 print("Starting...")
 try:
-    apiid = config("API_ID", cast=int)
-    apihash = config("API_HASH")
-    bottoken = config("BOT_TOKEN")
-    xchannel = config("CHANNEL")
-    welcome_msg = config("WELCOME_MSG")
-    welcome_not_joined = config("WELCOME_NOT_JOINED")
-    on_join = config("ON_JOIN", cast=bool)
-    on_new_msg = config("ON_NEW_MSG", cast=bool)
+    apiid = config("28518520", cast=int)
+    apihash = config("c858cde56cb2b2050a64df7e65de567b")
+    bottoken = config("7408170197:AAH7cu0Po4dtXKP4ZJfNUr4wgy56bAyN9JE")
+    xchannel = config("BestieVirtual")
+    welcome_msg = config("JOIN DULU ")
+    welcome_not_joined = config("JOIN DULU")
+    on_join = config("KLIK START LAGI", cast=bool)
+    on_new_msg = config("KLIK START LAGI", cast=bool)
 except:
     print("Environment vars are missing! Kindly recheck.")
     print("Bot is quiting...")
